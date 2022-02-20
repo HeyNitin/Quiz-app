@@ -1,4 +1,7 @@
+
 @import "header&footer.css";
+
+
 
 .quiz-categories {
   display: flex;
@@ -29,6 +32,26 @@
 
 .quiz-categories .card .heading-sub {
   margin: 0;
+}
+
+
+.footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: var(--padding-md);
+}
+
+.footer .social {
+  display: flex;
+  gap: var(--gap);
+}
+.footer .social .fa {
+  color: var(--black);
+}
+
+.footer .social .fa:hover {
+  color: var(--btn-color-primary);
 }
 
 .quiz-categories .card .header {
