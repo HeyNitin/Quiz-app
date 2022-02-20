@@ -23,7 +23,7 @@ Once you click on any quiz that you want to play, you'd be taken to the rules pa
 At the end of quiz, you'll be shown the result.
 
 ## Live Link - 
-Documentation site : [Quiz-App](https://trivia-quizes.netlify.app/)
+Live site : [Quiz-App](https://trivia-quizes.netlify.app/)
 
 ## ScreenShots - 
 
