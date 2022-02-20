@@ -1,0 +1,17 @@
+@import "variables.css";
+@import url(https://lekhni.netlify.app/css/components.css);
+
+body {
+  background-color: var(--off-white);
+  margin: 0;
+}
+.header {
+  display: flex;
+  padding: var(--padding-md);
+}
+
+.header .button {
+  padding: var(--padding-btn);
+  background-color: var(--btn-color-primary);
+  margin: 0rem 1rem 0rem auto;
+}
