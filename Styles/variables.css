@@ -4,7 +4,8 @@
   --white: rgb(255, 255, 255);
   --off-white: rgb(221, 213, 213);
   --btn-color-primary: rgb(240, 210, 41);
-  --header-color: blue;
+  --green: rgb(33, 223, 33);
+  --red: rgb(245, 7, 7);
 
   /* Padding */
   --padding-btn: 0.5rem 1rem;
@@ -12,4 +13,5 @@
 
   /* Gap */
   --gap: 2rem;
+  --gap-sm: 1rem;
 }
