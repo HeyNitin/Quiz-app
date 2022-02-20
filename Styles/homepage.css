@@ -1,4 +1,7 @@
-@import "header.css";
+
+@import "header&footer.css";
+
+
 
 .quiz-categories {
   display: flex;
@@ -30,6 +33,7 @@
 .quiz-categories .card .heading-sub {
   margin: 0;
 }
+
 
 .footer {
   margin-top: 1rem;
