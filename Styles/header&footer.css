@@ -1,0 +1,37 @@
+@import "variables.css";
+@import url(https://lekhni.netlify.app/css/components.css);
+
+body {
+  background-color: var(--off-white);
+  margin: 0;
+}
+.header {
+  display: flex;
+  padding: var(--padding-md);
+  margin-bottom: 2rem;
+}
+
+.header .button {
+  padding: var(--padding-btn);
+  background-color: var(--btn-color-primary);
+  margin: 0rem 1rem 0rem auto;
+}
+
+.footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: var(--padding-md);
+}
+
+.footer .social {
+  display: flex;
+  gap: var(--gap);
+}
+.footer .social .fa {
+  color: var(--black);
+}
+
+.footer .social .fa:hover {
+  color: var(--btn-color-primary);
+}
