@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <script
       src="https://kit.fontawesome.com/82dc64715a.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/Styles/questions-page.css" />
-    <title>SRK-quiz</title>
+    <link rel="stylesheet" href="../Styles/results.css" />
+    <title>Results</title>
   </head>
   <body>
     <header class="header">
@@ -19,20 +18,26 @@
       </button>
     </header>
 
-    <div class="questions-container">
-      <a class="heading-sub">Q.1 How well do you know SRK?</a>
-      <p>Which one of the following is SRK's first appearence on big screen</p>
-      <button class="button btn-primary">Deewana</button>
-      <button class="button btn-primary">Koyla</button>
-      <button class="button btn-primary">DDLJ</button>
-      <button class="button btn-primary">Dar</button>
-      <a href="results.html">Results</a>
-      <a
-        >(This won't be there in final version, just a link for you to review
-        results page)</a
-      >
+    <div class="heading-sm text-centered">
+      Final Score: <a class="result">10/20</a>
     </div>
 
+    <div class="questions-container">
+      <p>
+        Q. 1 Which one of the following is SRK's first appearence on big screen
+      </p>
+      <button class="button btn-primary">Deewana</button>
+      <button class="button btn-primary answer selected">Koyla</button>
+      <button class="button btn-primary">DDLJ</button>
+      <button class="button btn-primary">Dar</button>
+      <p>
+        Q.2 Which one of the following is SRK's first appearence on big screen
+      </p>
+      <button class="button btn-primary selected">Deewana</button>
+      <button class="button btn-primary answer">Koyla</button>
+      <button class="button btn-primary">DDLJ</button>
+      <button class="button btn-primary">Dar</button>
+    </div>
     <footer class="footer">
       <div class="social">
         <a href="https://github.com/heynitin/Quiz-app" target="_blank">
@@ -47,5 +52,4 @@
       </div>
     </footer>
   </body>
-
 </html>
