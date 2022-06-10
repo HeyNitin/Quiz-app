@@ -5,8 +5,8 @@
 - Vanilla CSS
 - JavaScript
 
-This is a quiz app, which lets you play any quiz from mentioned catagories.
-We currently have 3 main catagories
+This is a quiz app, which lets you play any quiz from mentioned categories.
+We currently have 3 main cetagories
 <br>
 Bollywood
 <br>
@@ -15,7 +15,7 @@ Hollywood
 Maths Trivia
 <br>
 
-Each catagory would have it's own set of different quizes.
+Each category would have it's own set of different quizes.
 <br>
 <br>
 Once you click on any quiz that you want to play, you'd be taken to the rules page which will have all the rules mentioned. Once you agree, you can enjoy playing the game.
